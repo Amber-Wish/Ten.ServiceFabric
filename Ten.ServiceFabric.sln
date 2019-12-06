@@ -11,7 +11,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDD", "DDD", "{C20B42C7-1CE
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extension", "Extension", "{4283AC43-88BE-45DD-BE9B-3F4F105B16BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ten.ServiceFabric.DI", "src\Extension\Ten.ServiceFabric.DI\Ten.ServiceFabric.DI.csproj", "{545E13F9-6936-4EAD-9FBF-A994617EDE5E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ten.ServiceFabric.DI", "src\Extension\Ten.ServiceFabric.DI\Ten.ServiceFabric.DI.csproj", "{545E13F9-6936-4EAD-9FBF-A994617EDE5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ten.DDD.EFCore", "src\DDD\Ten.DDD.EFCore\Ten.DDD.EFCore.csproj", "{7EE94005-A621-4481-B8C4-4815BDA759EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,6 +33,10 @@ Global
 		{545E13F9-6936-4EAD-9FBF-A994617EDE5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{545E13F9-6936-4EAD-9FBF-A994617EDE5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{545E13F9-6936-4EAD-9FBF-A994617EDE5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EE94005-A621-4481-B8C4-4815BDA759EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EE94005-A621-4481-B8C4-4815BDA759EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EE94005-A621-4481-B8C4-4815BDA759EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EE94005-A621-4481-B8C4-4815BDA759EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +45,7 @@ Global
 		{FB649FDE-7C02-492D-8B6F-7EF602C8267D} = {C20B42C7-1CE9-4D09-B54E-B72325EE60C5}
 		{DA09CCE8-704C-400B-975F-21044B4E5B70} = {4283AC43-88BE-45DD-BE9B-3F4F105B16BC}
 		{545E13F9-6936-4EAD-9FBF-A994617EDE5E} = {4283AC43-88BE-45DD-BE9B-3F4F105B16BC}
+		{7EE94005-A621-4481-B8C4-4815BDA759EC} = {C20B42C7-1CE9-4D09-B54E-B72325EE60C5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F1500D4C-7E33-4B26-8E08-EFEA009B23EB}
