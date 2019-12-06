@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspectCore.Extensions.DependencyInjection" Version="1.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DDD\Ten.DDD.DomainCore\Ten.DDD.DomainCore.csproj" />
+    <ProjectReference Include="..\Ten.ServiceFabric.Util\Ten.ServiceFabric.Util.csproj" />
+  </ItemGroup>
+
+</Project>
